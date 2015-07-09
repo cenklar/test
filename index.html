@@ -76,11 +76,14 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
 <body>
 
+<script>
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
     // Take the user to a different screen here.
-    <meta http-equiv=”refresh” content=”0;url=otros.html>
-    //Aqui!!!
-}
+	//<meta http-equiv="refresh" content="0"; url="otros.html">;
+	window.location = otros.html;
+	    //Aqui!!!
+   }
+</script>
 
 <div class="container">
   <div class="content">
@@ -93,4 +96,6 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
     <!-- end .content --></div>
   <!-- end .container --></div>
 </body>
+
+
 </html>
